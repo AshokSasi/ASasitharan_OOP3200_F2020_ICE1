@@ -166,7 +166,7 @@ int CartesianPoint::GetY()
 
 	 int xDelta = pointTo.myX - myX;
 	 // difference between y values
-	 int yDelta = pointTo.myY = myY;
+	 int yDelta = pointTo.myY - myY;
 	 // return the formula (based on Pythagorean theorem)
 	 return sqrt((xDelta * xDelta) + (yDelta * yDelta));
 }
